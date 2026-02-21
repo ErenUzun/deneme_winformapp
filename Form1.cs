@@ -19,7 +19,8 @@ namespace deneme_winformapp
             // labelin textini buton ile değiştirme ama butona bastığımızda kullanıcıdan veri alan bi pencere açılıp labele yazsın
             string a = Interaction.InputBox("Lütfen bir değer giriniz","Adınız","Boş",250,250);
             lbl_Adınız.Text = a;
-            
+            string b = "Merhaba, ";
+
         }
     }
 }
